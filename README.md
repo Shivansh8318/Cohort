@@ -250,16 +250,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Vite** for the fast build tool
 - **Vercel** for deployment platform
 
-## 📞 Support
 
-For support, email support@navneent-cohort.com or create an issue on GitHub.
 
-## 🔗 Links
-
-- **Live Demo**: [https://navneent-cohort-streaming.vercel.app](https://navneent-cohort-streaming.vercel.app)
-- **100ms Documentation**: [https://www.100ms.live/docs](https://www.100ms.live/docs)
-- **GitHub Repository**: [https://github.com/navneent-cp/cohort-streaming](https://github.com/navneent-cp/cohort-streaming)
-
----
-
-**Built with ❤️ by Navneent CP using 100ms technology** 
+**Built with ❤️ by Shivansh Agrawal** 
