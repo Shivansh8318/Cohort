@@ -1,4 +1,4 @@
-# Navneent CP Cohort - Live Streaming Platform
+# Navnet CP Cohort - Live Streaming Platform
 
 A modern, feature-rich live streaming platform built for educational cohorts using **100ms technology**. This platform provides seamless video conferencing, interactive sessions, and recording capabilities with a beautiful, responsive UI.
 
@@ -241,15 +241,6 @@ Set these in your deployment platform:
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **100ms** for providing excellent video streaming technology
-- **React Team** for the amazing framework
-- **Tailwind CSS** for the utility-first CSS framework
-- **Vite** for the fast build tool
-- **Vercel** for deployment platform
-
 
 
 **Built with ❤️ by Shivansh Agrawal** 
