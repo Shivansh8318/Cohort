@@ -1,0 +1,10 @@
+{
+  "name": "Navneent CP Cohort - Live Streaming",
+  "short_name": "Navneent Cohort",
+  "description": "Live streaming platform for Navneent CP Cohort with 100ms integration",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#3b82f6",
+  "background_color": "#ffffff",
+  "icons": []
+} 

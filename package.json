@@ -1,0 +1,34 @@
+{
+  "name": "navneent-cohort-streaming",
+  "version": "1.0.0",
+  "description": "Live streaming website for Navneent CP Cohort with 100ms integration",
+  "main": "index.js",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build": "npm run build:frontend && npm run build:backend",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "start": "npm run start:backend",
+    "start:backend": "cd backend && npm start",
+    "install-deps": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  },
+  "keywords": [
+    "100ms",
+    "live-streaming",
+    "react",
+    "vite",
+    "express",
+    "nodejs"
+  ],
+  "author": "Navneent CP Cohort",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+} 
