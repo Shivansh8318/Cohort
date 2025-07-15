@@ -2,7 +2,7 @@
 
 A modern, feature-rich live streaming platform built for educational cohorts using **100ms technology**. This platform provides seamless video conferencing, interactive sessions, and recording capabilities with a beautiful, responsive UI.
 
-![Platform Preview](https://via.placeholder.com/800x400/3b82f6/ffffff?text=Navneent+CP+Cohort+Platform)
+![Platform Preview](navneet-cp-cohort.netlify.app)
 
 ## 🌟 Features
 
