@@ -40,7 +40,7 @@ export function Navigation() {
             </div>
             <div>
               <h1 className="text-xl font-bold text-secondary-900">
-                Navneent CP
+                shivansh CP
               </h1>
               <p className="text-xs text-secondary-600">Cohort Stream</p>
             </div>

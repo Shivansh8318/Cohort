@@ -14,9 +14,9 @@ const api = axios.create({
 // Request interceptor
 api.interceptors.request.use(
   (config) => {
-    // Add auth token if available and if not a recordings endpoint
+    // Add auth token if available
     const token = localStorage.getItem('auth_token');
-    if (token && !config.url.includes('/recordings')) {
+    if (token) {
       config.headers.Authorization = `Bearer ${token}`;
     }
     return config;
@@ -41,7 +41,7 @@ api.interceptors.response.use(
 
 // Auth API
 export const authAPI = {
-  // Generate authentication token
+  // Generate token for joining room
   async generateToken(username, role = 'viewer-realtime') {
     const response = await api.post('/auth/token', { username, role });
     return response.data;
@@ -63,19 +63,17 @@ export const authAPI = {
   async validateToken(token) {
     const response = await api.post('/auth/validate', { token });
     return response.data;
-  }
+  },
 };
 
 // Recordings API
 export const recordingsAPI = {
   // Get all recordings
-  async getRecordings() {
-    // First get the room code to get the room ID
-    const roomResponse = await authAPI.getRoomCode();
-    const roomId = roomResponse.data.room_id;
+  async getRecordings(page = 1, limit = 10, roomId = null) {
+    const params = { page, limit };
+    if (roomId) params.room_id = roomId;
     
-    // Then fetch recordings for that room
-    const response = await api.get(`/recordings/room/${roomId}`);
+    const response = await api.get('/recordings', { params });
     return response.data;
   },
 
@@ -86,8 +84,10 @@ export const recordingsAPI = {
   },
 
   // Get recordings by room
-  async getRecordingsByRoom(roomId) {
-    const response = await api.get(`/recordings/room/${roomId}`);
+  async getRecordingsByRoom(roomId, page = 1, limit = 10) {
+    const response = await api.get(`/recordings/room/${roomId}`, {
+      params: { page, limit }
+    });
     return response.data;
   },
 
@@ -110,7 +110,7 @@ export const recordingsAPI = {
   async getRecordingStatus(roomId) {
     const response = await api.get(`/recordings/status/${roomId}`);
     return response.data;
-  }
+  },
 };
 
 // Health check

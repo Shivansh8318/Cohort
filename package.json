@@ -1,7 +1,7 @@
 {
-  "name": "navneent-cohort-streaming",
+  "name": "shivansh-cohort-streaming",
   "version": "1.0.0",
-  "description": "Live streaming website for Navneent CP Cohort with 100ms integration",
+  "description": "Live streaming website for shivansh CP Cohort with 100ms integration",
   "main": "index.js",
   "workspaces": [
     "frontend",
@@ -26,7 +26,7 @@
     "express",
     "nodejs"
   ],
-  "author": "Navneent CP Cohort",
+  "author": "shivansh CP Cohort",
   "license": "MIT",
   "devDependencies": {
     "concurrently": "^8.2.2"

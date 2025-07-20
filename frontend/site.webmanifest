@@ -1,7 +1,7 @@
 {
-  "name": "Navneent CP Cohort - Live Streaming",
-  "short_name": "Navneent Cohort",
-  "description": "Live streaming platform for Navneent CP Cohort with 100ms integration",
+  "name": "shivansh CP Cohort - Live Streaming",
+  "short_name": "shivansh Cohort",
+  "description": "Live streaming platform for shivansh CP Cohort with 100ms integration",
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#3b82f6",

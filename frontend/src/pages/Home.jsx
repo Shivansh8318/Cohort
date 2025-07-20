@@ -20,7 +20,7 @@ export function Home() {
     {
       icon: Code,
       title: 'Expert Problem Solving',
-      description: 'Learn DSA and CP techniques from Navneet, a Codeforces Expert and 6-star Codechef coder.'
+      description: 'Learn DSA and CP techniques from shivansh, a Codeforces Expert and 6-star Codechef coder.'
     },
     {
       icon: PlayCircle,
@@ -30,7 +30,7 @@ export function Home() {
     {
       icon: Users,
       title: 'Community Learning',
-      description: 'Join Navneet’s Telegram group with 5000+ CP enthusiasts for peer support and mentorship.'
+      description: 'Join shivansh’s Telegram group with 5000+ CP enthusiasts for peer support and mentorship.'
     },
     {
       icon: Shield,
@@ -59,13 +59,13 @@ export function Home() {
         <div className="relative max-w-7xl mx-auto px-4 text-center">
           <div className="space-y-6">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-100 leading-tight">
-              Navneet’s CP
+              shivansh’s CP
               <span className="block bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
                 Cohort Platform
               </span>
             </h1>
             <p className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto">
-              Master competitive programming with live classes and recordings, led by Navneet Hingankar, Google SWE and Codeforces Expert.
+              Master competitive programming with live classes and recordings, led by shivansh Hingankar, Google SWE and Codeforces Expert.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -148,7 +148,7 @@ export function Home() {
             Start Your CP Journey Today
           </h2>
           <p className="text-lg text-white/90 mb-8">
-            Join Navneet’s cohort to ace coding interviews and competitions with expert guidance.
+            Join shivansh’s cohort to ace coding interviews and competitions with expert guidance.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -177,7 +177,7 @@ export function Home() {
               What Our Coders Say
             </h2>
             <p className="text-lg text-gray-400">
-              Hear from competitive programmers in Navneet’s community
+              Hear from competitive programmers in shivansh’s community
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -185,13 +185,13 @@ export function Home() {
               {
                 name: 'Ankit Sharma',
                 role: 'Codeforces Specialist',
-                content: 'Navneet’s live classes boosted my Codeforces rating from 1400 to 1600. The interactive format is amazing!',
+                content: 'shivansh’s live classes boosted my Codeforces rating from 1400 to 1600. The interactive format is amazing!',
                 rating: 5,
               },
               {
                 name: 'Priya Patel',
                 role: 'Leetcode Enthusiast',
-                content: 'The session recordings helped me master DP and graph problems. Navneet’s explanations are top-notch.',
+                content: 'The session recordings helped me master DP and graph problems. shivansh’s explanations are top-notch.',
                 rating: 5,
               },
               {

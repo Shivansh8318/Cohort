@@ -51,7 +51,7 @@ export function About() {
 
   const team = [
     {
-      name: 'Navneent CP',
+      name: 'Shivansh Agrawal',
       role: 'Lead Developer',
       description: 'Full-stack developer passionate about creating seamless user experiences',
       avatar: '/api/placeholder/avatar/1'
@@ -68,7 +68,7 @@ export function About() {
           </div>
         </div>
         <h1 className="text-4xl md:text-5xl font-bold text-secondary-900 mb-4">
-          About Navneent CP Cohort
+          About shivansh CP Cohort
         </h1>
         <p className="text-xl text-secondary-600 max-w-3xl mx-auto">
           A modern live streaming platform built for educational cohorts, powered by 100ms technology 
@@ -270,14 +270,14 @@ export function About() {
         
         <div className="flex justify-center gap-6">
           <a 
-            href="mailto:contact@navneent-cohort.com" 
+            href="mailto:contact@shivansh-cohort.com" 
             className="btn btn-primary"
           >
             <Mail className="w-5 h-5 mr-2" />
             Contact Us
           </a>
           <a 
-            href="https://github.com/navneent-cp/cohort-streaming" 
+            href="https://github.com/shivansh-cp/cohort-streaming" 
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-outline"
@@ -290,7 +290,7 @@ export function About() {
 
       {/* Footer */}
       <footer className="text-center py-8 border-t border-secondary-200 text-secondary-600">
-        <p>&copy; 2024 Navneent CP Cohort. Built with ❤️ using 100ms technology.</p>
+        <p>&copy; 2024 shivansh CP Cohort. Built with ❤️ using 100ms technology.</p>
       </footer>
     </div>
   );

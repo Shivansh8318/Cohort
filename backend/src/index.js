@@ -34,7 +34,7 @@ app.use('/api/recordings', recordingsRoutes);
 app.get('/api/health', (req, res) => {
   res.json({ 
     status: 'OK', 
-    message: 'Navneent CP Cohort Streaming API is running!',
+    message: 'shivansh CP Cohort Streaming API is running!',
     timestamp: new Date().toISOString(),
     version: '1.0.0'
   });
@@ -43,7 +43,7 @@ app.get('/api/health', (req, res) => {
 // Root endpoint
 app.get('/', (req, res) => {
   res.json({ 
-    message: 'Welcome to Navneent CP Cohort Streaming API',
+    message: 'Welcome to shivansh CP Cohort Streaming API',
     endpoints: {
       health: '/api/health',
       auth: '/api/auth',

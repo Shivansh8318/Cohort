@@ -1,7 +1,7 @@
 {
-  "name": "navneent-cohort-backend",
+  "name": "shivansh-cohort-backend",
   "version": "1.0.0",
-  "description": "Backend API for Navneent CP Cohort streaming platform",
+  "description": "Backend API for shivansh CP Cohort streaming platform",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
@@ -25,6 +25,6 @@
     "streaming",
     "api"
   ],
-  "author": "Navneent CP Cohort",
+  "author": "shivansh CP Cohort",
   "license": "MIT"
 } 

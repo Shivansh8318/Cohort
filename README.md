@@ -1,8 +1,8 @@
-# Navneent CP Cohort - Live Streaming Platform
+# shivansh CP Cohort - Live Streaming Platform
 
 A modern, feature-rich live streaming platform built for educational cohorts using **100ms technology**. This platform provides seamless video conferencing, interactive sessions, and recording capabilities with a beautiful, responsive UI.
 
-![Platform Preview](https://via.placeholder.com/800x400/3b82f6/ffffff?text=Navneent+CP+Cohort+Platform)
+![Platform Preview](https://via.placeholder.com/800x400/3b82f6/ffffff?text=shivansh+CP+Cohort+Platform)
 
 ## 🌟 Features
 
@@ -51,7 +51,7 @@ Before running this project, make sure you have:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/navneent-cp/cohort-streaming.git
+git clone https://github.com/shivansh-cp/cohort-streaming.git
 cd cohort-streaming
 ```
 
@@ -252,14 +252,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-For support, email support@navneent-cohort.com or create an issue on GitHub.
+For support, email support@shivansh-cohort.com or create an issue on GitHub.
 
 ## 🔗 Links
 
-- **Live Demo**: [https://navneent-cohort-streaming.vercel.app](https://navneent-cohort-streaming.vercel.app)
+- **Live Demo**: [https://shivansh-cohort-streaming.vercel.app](https://shivansh-cohort-streaming.vercel.app)
 - **100ms Documentation**: [https://www.100ms.live/docs](https://www.100ms.live/docs)
-- **GitHub Repository**: [https://github.com/navneent-cp/cohort-streaming](https://github.com/navneent-cp/cohort-streaming)
+- **GitHub Repository**: [https://github.com/shivansh-cp/cohort-streaming](https://github.com/shivansh-cp/cohort-streaming)
 
 ---
 
-**Built with ❤️ by Navneent CP using 100ms technology** 
+**Built with ❤️ by shivansh CP using 100ms technology** 

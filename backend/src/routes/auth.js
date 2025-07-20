@@ -69,18 +69,7 @@ router.post('/token', async (req, res, next) => {
     const userId = uuidv4();
 
     // Create JWT payload for 100ms
-    const payload = {
-      access_key: HMS_CONFIG.accessKey,
-      room_id: HMS_CONFIG.roomId,
-      user_id: userId,
-      role: role,
-      type: 'app',
-      version: 2,
-      jti: uuidv4(), // JWT ID is required by 100ms
-      iat: Math.floor(Date.now() / 1000),
-      nbf: Math.floor(Date.now() / 1000)
-    };
-
+   
     // Sign the token with 100ms secret
     const token = jwt.sign(payload, HMS_CONFIG.secret, {
       algorithm: 'HS256',
