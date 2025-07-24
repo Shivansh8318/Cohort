@@ -236,5 +236,4 @@ Set these in your deployment platform:
 - Follow the existing code style
 - Add appropriate comments and documentation
 - Test new features thoroughly
-- Update README if needed
 
